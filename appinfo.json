@@ -1,0 +1,33 @@
+{
+  "uuid": "b7694427-e1f6-46de-90ea-d2efd4eb0624",
+  "shortName": "Kson",
+  "longName": "Ksons Pebble Watchface",
+  "companyName": "Screen Interaction",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "font",
+        "characterRegex": "[:0-9 ]",
+        "name": "FONT_MERRIWEATHER_42",
+        "file": "fonts/merriweather-light.ttf",
+        "compatibility":"3"
+      },
+      {
+        "type": "font",
+        "characterRegex": "[:0-9 ]",
+        "name": "FONT_MERRIWEATHER_30",
+        "file": "fonts/merriweather-light.ttf",
+        "compatibility":"3"
+      }
+    ]
+  }
+}
