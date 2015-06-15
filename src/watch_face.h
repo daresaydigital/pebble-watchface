@@ -9,7 +9,7 @@
 
   static Window *s_main_window;
   static TextLayer *s_time_layer;
-  static GFont s_time_font;
+  static GFont *s_time_font;
 
   static void window_load(Window *window);
   static void window_unload(Window *window);
